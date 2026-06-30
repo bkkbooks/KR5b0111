@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0111/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0111/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清修行經訣
+  date: '2015-08-28 23:49:33.727577'
+  source:
+    repository: kanripo
+    path: KR5b0111
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0111_000-HFL.yaml, hash: 'sha256:73d1ed5d5802c012969620c4c250471dbffbbb99ae4cd38c8eb18053dea6e273'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0111_000-HFL.markers.yaml, hash: 'sha256:22262fee3fe46ce9aa156c79ccd6b31eafc50d779ae1a387de5736dcf7d75d92'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0111_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 8319
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:cd3f17ab3f1b8be1bcbd7a3b3d1b0551341ae7f29adfbd7d917a1c074a85d0ad
